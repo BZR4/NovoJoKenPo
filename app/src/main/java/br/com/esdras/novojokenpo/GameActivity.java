@@ -140,7 +140,8 @@ public class GameActivity extends AppCompatActivity {
 
         AlertDialog.Builder alert = new AlertDialog.Builder(this)
                 .setTitle("Desempenho de " + nome)
-                .setMessage("Ganhou " + ganhou + " vezes!\nEmpatou " + empatou + " vezes!\nPerdeu  " + perdeu + " vezes!\n" + aproveitamento + "% de aproveitamento!")
+                .setMessage("Ganhou " + ganhou + " vezes!\nEmpatou " + empatou
+                        + " vezes!\nPerdeu  " + perdeu + " vezes!\n" + aproveitamento + "% de aproveitamento!")
                 .setPositiveButton("Fim", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
